@@ -29,4 +29,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file ./User-Expense-Tracker/pom.xml
     - name: Execute Jar file
-      run: sudo kill -9 `sudo lsof -t -i:8080` & sudo java -jar /home/ubuntu/actions-runner/_work/User_Expense_Tracker_with_aws/User_Expense_Tracker_with_aws/User-Expense-Tracker/target/User-Expense-Tracker-0.0.1-SNAPSHOT.jar &
+      run: sudo kill -9 `sudo lsof -t -i:8080` & sudo java -jar /home/ubuntu/actions-runner/_work/User_Expense_Tracker_with_AWS/User_Expense_Tracker_with_AWS/User-Expense-Tracker/target/User-Expense-Tracker-0.0.1-SNAPSHOT.jar &
